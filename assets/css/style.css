@@ -10,3 +10,12 @@
 .input{
 	height: 40px;
 }
+.texta{
+   height: 100px;
+}
+.contenedor-inputs{
+	margin-left: 34%;
+	border-radius: 10pX;
+	border-style: none;
+	margin-top: 15px;
+}
