@@ -1,0 +1,12 @@
+#contact{
+	background-color: black;
+}
+.contacto{
+	text-align: center;
+	color: red;
+	height: 400px;
+	margin-top: 20px;
+}
+.input{
+	height: 40px;
+}
