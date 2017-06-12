@@ -19,3 +19,12 @@
 	border-style: none;
 	margin-top: 15px;
 }
+.enviar{
+	background-color: green;
+	border-radius: 10px;
+	border-style: none;
+	height: 50px;
+	position: relative;
+	left: 120px;
+	font-size: 20px;
+}
