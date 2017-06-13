@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{
 	background-color:transparent;
 	border-color:transparent;
 	background-image:none;
-	box-shadow:none;	
+	box-shadow:none;
 }
 
 .navbar-color{
@@ -53,11 +53,84 @@ h1,h2,h3,h4,h5,h6{
 
 /*--------FIN Seccion Header----------*/
 
+
+
+/*--------Seccion Consolas----------*/
+
 .dos{
 	height: 100vh;
-	background: #fff;
 }
-/*-------- Seccion Compras --------*/
+
+/*Fondo Imagenes*/
+.dosA {
+  background-image: url(../img/play4-1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dosB {
+  background-image: url(../img/xBox1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dosC {
+  background-image: url(../img/nintendoSwitch1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Barras de %*/
+.container{
+  padding-top: 10%;
+}
+
+.progress:hover{
+  box-shadow: 2px 2px 5px #1C6342;
+}
+
+/*Logos*/
+.logo {
+  width: 15%;
+  margin-left: 45%;
+  padding-top: 3%;
+
+.dosA .btn, .dosC .btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #1C6342;
+	margin-top: 200px;
+}
+
+.dosB .btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #1C6342;
+	margin-top: 50px;
+}
+
+.modal .btn {
+	color: #1C6342;
+	font-weight: bold;
+	margin-top: 300px;
+}
+/*--------FIN Seccion Consolas----------*/
+
+.tres {
+	height: 100vh;
+	background: #555;
+	overflow-y: scroll;
+}
 
 
 .tres{
@@ -225,9 +298,9 @@ h1,h2,h3,h4,h5,h6{
 /*-------- Footer ----------*/
 footer{
 	background-color: background: #243B55;
-background: -webkit-linear-gradient(left, #141E30, #243B55);
-background: -o-linear-gradient(left, #141E30, #243B55);
-background: linear-gradient(to right, #141E30, #243B55); 
+  background: -webkit-linear-gradient(left, #141E30, #243B55);
+  background: -o-linear-gradient(left, #141E30, #243B55);
+  background: linear-gradient(to right, #141E30, #243B55); 
 	color: #fff;
 	font-size: 16px;
 }
@@ -298,7 +371,7 @@ footer .fa-instagram:hover{
 }
 #creditos h4{
 	text-shadow: 2px 2px 5px #22840D;
-=======
+  }
 
 
 /*-------Seccion Mapa-Sucursal-------*/
@@ -352,3 +425,4 @@ span{
 }
 
 /*-----Termino Section Quienes Somos----*/
+
