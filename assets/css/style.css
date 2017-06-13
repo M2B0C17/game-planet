@@ -45,7 +45,7 @@ body {
 	background: #fff;
 	overflow-y: scroll;
 }
-/* Seccion Compras */
+/*-------- Seccion Compras --------*/
 
 .tres{
 	padding: 5% 0;
@@ -61,7 +61,6 @@ body {
 .title-list{
 	font-weight: bold;
 	font-size: 36px;
-
 }
 
 
@@ -81,7 +80,17 @@ body {
 	background-color:#C70041;
 }
 .precio{
-	padding-bottom:40px;
+	padding:20px 0 40px 0;
+}
+.precio-nintendo{
+	padding-top: 9px;
+}
+.box-price{
+	padding-top: 60px;
+}
+
+.pad-nintendo{
+	padding-top:40px;
 }
 .signo-peso{
 	font-size:14px;
@@ -106,3 +115,5 @@ body {
 	font-color: #FD8816;
 	font-weight: bold;
 }
+
+/*-------- FIN Seccion Compras-------- */
