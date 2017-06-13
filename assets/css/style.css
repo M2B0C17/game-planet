@@ -46,10 +46,10 @@ body {
 
 .dos{
 	height: 100vh;
-	overflow-y: scroll;
 }
 
-.sectionDiseñoSec1{
+/*Fondo Imagenes*/
+.dosA{
   background-image: url(../img/play4-1.jpg);
   height: 100vh;
   background-size: cover;
@@ -61,6 +61,7 @@ body {
   background-color: white;
 }
 
+<<<<<<< HEAD
 .btn {
 	font-size: 1.25em;
 	font-weight: bold;
@@ -78,6 +79,9 @@ body {
 }
 
 .sectionDiseñoSec2{
+=======
+.dosB{
+>>>>>>> 7cfa7d404db8fa993e2d86c6047bb4b332e08f9f
   background-image: url(../img/xBox1.jpg);
   height: 100vh;
   background-size: cover;
@@ -85,13 +89,25 @@ body {
 	background-position: center;
 }
 
-.sectionDiseñoSec3{
+.dosC{
   background-image: url(../img/nintendoSwitch1.jpg);
   height: 100vh;
   background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/*Barras de %*/
+.container{
+  padding-top: 25%;
+}
+
+.progress:hover{
+  box-shadow: 2px 2px 5px #1C6342;
+}
+
+
+
 
 /*--------FIN Seccion Consolas----------*/
 
