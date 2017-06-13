@@ -1,5 +1,10 @@
 body {
   position: relative;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Orbitron', sans-serif;
 }
 
 /*--------Seccion Header----------*/
@@ -53,4 +58,18 @@ body {
 	height: 100vh;
 	background: #555;
 	overflow-y: scroll;
+}
+
+/*-------- Footer ----------*/
+footer{
+	padding-top: 5%;
+	background-color: #000;
+	height: 40vh;
+	color: #fff;
+	font-size: 18px;
+}
+
+footer .logo{
+	width: 30%;
+	height: 20%;
 }
