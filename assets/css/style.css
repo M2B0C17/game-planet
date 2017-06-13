@@ -1,10 +1,12 @@
 body {
+  
   position: relative;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
  font-family: 'Orbitron', sans-serif;
+
 }
 
 /*--------Seccion Header----------*/
@@ -20,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 
 .navpart-header,
 .navbar-nav { 
-   margin: 0 5%
+	margin: 0 5%
 }
 
 .navbar>li.active>a:hover{
@@ -50,12 +52,78 @@ h1,h2,h3,h4,h5,h6{
 	background: #fff;
 	overflow-y: scroll;
 }
+/*-------- Seccion Compras --------*/
 
 .tres{
-	height: 100vh;
-	background: #555;
+	padding: 5% 0;
+	background: #2F155B;
 	overflow-y: scroll;
 }
+
+.title-compra{
+	color: #fff;
+	padding-bottom: 60px;
+}
+
+.title-list{
+	font-weight: bold;
+	font-size: 36px;
+}
+
+
+.box-product{ /* caja general que contiene a cada producto */
+	border-radius: 30px;
+	padding: 50px 0 70px 0;
+}
+
+.box-nintendo{ /* background color de la caja general de nintendo */
+	background-color:#FFF121;
+}
+.box-xbox{ /* background color de la caja general de xbox */
+	background-color: #FD8816;
+}
+
+.box-ps4{ /* background color de la caja general de ps4 */
+	background-color:#C70041;
+}
+.precio{
+	padding:20px 0 40px 0;
+}
+.precio-nintendo{
+	padding-top: 9px;
+}
+.box-price{
+	padding-top: 60px;
+}
+
+.pad-nintendo{
+	padding-top:40px;
+}
+.signo-peso{
+	font-size:14px;
+}
+
+.valor{
+	font-size:40px;
+}
+
+.pesos{
+	font-size:14px;
+}
+
+.line{
+	width:200px;
+}
+.btn{
+	border-radius: 40px;
+	padding: 20px;
+	margin-top:30px;
+	background-color: #fff;
+	font-color: #FD8816;
+	font-weight: bold;
+}
+
+/*-------- FIN Seccion Compras-------- */
 
 /*-------- Footer ----------*/
 footer{
@@ -121,3 +189,4 @@ footer .fa-instagram:hover{
 	border:0.1em solid #22840D;
 	padding: 5%;
 }
+
