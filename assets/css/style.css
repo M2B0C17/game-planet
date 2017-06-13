@@ -54,10 +54,13 @@ h1,h2,h3,h4,h5,h6{
 }
 /*-------- Seccion Compras --------*/
 
+
 .tres{
 	padding: 5% 0;
-	background: #2F155B;
 	overflow-y: scroll;
+	background-color: background: #6441A5 ; 
+	background: -webkit-linear-gradient(to right, #2a0845 , #6441A5 ); 
+	background: linear-gradient(to right, #2a0845 , #6441A5 );
 }
 
 .title-compra{
@@ -67,27 +70,28 @@ h1,h2,h3,h4,h5,h6{
 
 .title-list{
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 26px;
 }
 
 
 .box-product{ /* caja general que contiene a cada producto */
 	border-radius: 30px;
-	padding: 50px 0 70px 0;
+	padding: 20px 0 30px 0;
+	color:white;
 }
 
 .box-nintendo{ /* background color de la caja general de nintendo */
-	background-color:#FFF121;
+	background-color:#f83700;
 }
 .box-xbox{ /* background color de la caja general de xbox */
-	background-color: #FD8816;
+	background-color: #fd8c00;
 }
 
 .box-ps4{ /* background color de la caja general de ps4 */
 	background-color:#C70041;
 }
 .precio{
-	padding:20px 0 40px 0;
+	padding:20px 0 10px 0;
 }
 .precio-nintendo{
 	padding-top: 9px;
@@ -97,7 +101,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .pad-nintendo{
-	padding-top:40px;
+	padding-top:10px;
 }
 .signo-peso{
 	font-size:14px;
@@ -114,13 +118,21 @@ h1,h2,h3,h4,h5,h6{
 .line{
 	width:200px;
 }
+
+
 .btn{
-	border-radius: 40px;
-	padding: 20px;
-	margin-top:30px;
-	background-color: #fff;
-	font-color: #FD8816;
-	font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background: none;
+}
+
+.btn:hover{
+    color:#191654 ;
+    background: white;
+    
 }
 
 /*-------- FIN Seccion Compras-------- */
