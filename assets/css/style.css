@@ -17,7 +17,7 @@ body {
 }
 
 .navpart-header,
-.navbar-nav { 
+.navbar-nav {
    margin: 0 5%
 }
 
@@ -34,7 +34,7 @@ body {
 	background-color:transparent;
 	border-color:transparent;
 	background-image:none;
-	box-shadow:none;	
+	box-shadow:none;
 }
 
 .navbar-color{
@@ -42,12 +42,39 @@ body {
 }
 
 /*--------FIN Seccion Header----------*/
+/*--------Seccion Consolas----------*/
 
 .dos{
 	height: 100vh;
-	background: #fff;
 	overflow-y: scroll;
 }
+
+.sectionDiseñoSec1{
+  background-image: url(../img/play4-1.jpg);
+  height: 100vh;
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.sectionDiseñoSec2{
+  background-image: url(../img/xBox1.jpg);
+  height: 100vh;
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sectionDiseñoSec3{
+  background-image: url(../img/nintendoSwitch1.jpg);
+  height: 100vh;
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*--------FIN Seccion Consolas----------*/
 
 .tres{
 	height: 100vh;
