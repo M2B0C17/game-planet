@@ -57,10 +57,16 @@ body {
 
 
 /*-------Seccion Mapa-Sucursal-------*/
-.mapa{
+iframe{
+
 	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	background-color: transparent;
-}
+	}
+
 
 
 
