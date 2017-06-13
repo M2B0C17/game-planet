@@ -1,5 +1,5 @@
 body {
-  position: relative;
+	position: relative;
 }
 
 /*--------Seccion Header----------*/
@@ -15,7 +15,7 @@ body {
 
 .navpart-header,
 .navbar-nav { 
-   margin: 0 5%
+	margin: 0 5%
 }
 
 .navbar>li.active>a:hover{
@@ -45,9 +45,11 @@ body {
 	background: #fff;
 	overflow-y: scroll;
 }
+/* Seccion Compras */
 
 .tres{
 	height: 100vh;
-	background: #555;
+	background: #2F155B;
 	overflow-y: scroll;
 }
+
