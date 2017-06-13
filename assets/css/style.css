@@ -59,6 +59,7 @@ body {
 /*-------Seccion Mapa-Sucursal-------*/
 .mapa{
 	width: 100%;
+	background-color: transparent;
 }
 
 
