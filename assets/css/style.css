@@ -1,24 +1,28 @@
 body {
+  
   position: relative;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Orbitron', sans-serif;
+
 }
 
 /*--------Seccion Header----------*/
 .first-section{
+	background-image: url(../img/fondo.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	border-bottom: 3px solid gray;
 
-	background: #360033;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .navpart-header,
-.navbar-nav {
-   margin: 0 5%
+.navbar-nav { 
+	margin: 0 5%
 }
 
 .navbar>li.active>a:hover{
@@ -39,14 +43,17 @@ body {
 
 .navbar-color{
 	background-color: #001510;
+	height: 70px;
+}
+
+.navbar-brand{
+	width: 150px;
+	margin-top: 2px;
 }
 
 /*--------FIN Seccion Header----------*/
-/*--------Seccion Consolas----------*/
 
-.dos{
-	height: 100vh;
-}
+
 
 /*--------Seccion Consolas----------*/
 
@@ -124,4 +131,298 @@ body {
 	background: #555;
 	overflow-y: scroll;
 }
+
+
+.tres{
+
+	padding: 5% 0;
+	overflow-y: scroll;
+	background-color: background: #6441A5 ; 
+	background: -webkit-linear-gradient(to right, #2a0845 , #6441A5 ); 
+	background: linear-gradient(to right, #2a0845 , #6441A5 );
+}
+.title-compra{
+	color: #fff;
+	padding-bottom: 60px;
+}
+
+.title-list{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+
+.box-product{ /* caja general que contiene a cada producto */
+	border-radius: 30px;
+	padding: 20px 0 30px 0;
+	color:white;
+}
+
+.box-nintendo{ /* background color de la caja general de nintendo */
+	background-color:#f83700;
+}
+.box-xbox{ /* background color de la caja general de xbox */
+	background-color: #fd8c00;
+}
+
+.box-ps4{ /* background color de la caja general de ps4 */
+	background-color:#C70041;
+}
+.precio{
+	padding:20px 0 10px 0;
+}
+.precio-nintendo{
+	padding-top: 9px;
+}
+.box-price{
+	padding-top: 60px;
+}
+
+.pad-nintendo{
+	padding-top:10px;
+}
+.signo-peso{
+	font-size:14px;
+}
+
+.valor{
+	font-size:40px;
+}
+
+.pesos{
+	font-size:14px;
+}
+
+.line{
+	width:200px;
+}
+
+
+.btn{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background: none;
+}
+
+.btn:hover{
+    color:#191654 ;
+    background: white;
+    
+}
+
+/*-------- FIN Seccion Compras-------- */
+
+/* 4.- C O N T A C T O */
+#contacto{
+	background-color: background: #191654 ; 
+	background: -webkit-linear-gradient(to right, #43C6AC , #191654 ); 
+	background: linear-gradient(to right, #43C6AC , #191654 ); 
+	height: 100vh;
+}
+.contacto h1{
+	margin-left: 160px;
+	margin-top: 15vh;
+}
+.contacto{
+	color: white;
+	margin-top: 20px;
+}
+.input{
+	height: 40px;
+}
+.texta{
+	height: 100px;
+}
+.contenedor-inputs{
+	margin-left: 20%;
+	border-radius: 10pX;
+	border-style: none;
+	margin-top: 15px;
+}
+.enviar{
+	margin-left: 20%;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background: none;
+}
+
+.enviar:hover{
+	color:#191654;
+	background: white;
+}
+
+#boton-suscri{
+	margin-left: 20%;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background: none;
+}
+
+#boton-suscri:hover{
+	color:#191654;
+	background: white;
+}
+
+
+.suscribirse{
+	text-align: center;
+	margin-top: 30vh;
+}
+.suscribirse input{
+	height: 40px;
+}
+.suscribirse p{
+	font-size: 20px;
+	color: white;
+}
+.suscribirse button{
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+/*FIN  C O N T A C T O */
+
+.modal-body{
+	color: gray;
+}
+
+/*-------- Footer ----------*/
+footer{
+	background-color: background: #243B55;
+  background: -webkit-linear-gradient(left, #141E30, #243B55);
+  background: -o-linear-gradient(left, #141E30, #243B55);
+  background: linear-gradient(to right, #141E30, #243B55); 
+	color: #fff;
+	font-size: 16px;
+}
+footer ul{
+	text-decoration: none;
+}
+
+.contenido{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+footer a:hover{
+	color: #22840D;
+	text-decoration:none;
+}
+
+footer .fa-facebook-official{
+	margin: 2%;
+	border-radius: 4em;
+	border: 0.1em solid #fff;
+	padding: 5%;
+	border:1%;
+}
+footer .fa-facebook-official:hover{
+	background-color: #22840D;
+	color: #fff;
+	border:0.1em solid #22840D;
+	padding: 5%;
+}
+
+footer .fa-twitter{
+	margin: 2%;
+	border-radius: 4em;
+	border: 0.1em solid #fff;
+	padding: 5%;
+	border:1%;
+}
+
+footer .fa-twitter:hover{
+	background-color: #22840D;
+	color: #fff;
+	border:0.1em solid #22840D;
+	padding: 5%;	
+}
+
+footer .fa-instagram{
+	margin: 2%;
+	border-radius: 4em;
+	border: 0.1em solid #fff;
+	padding: 5%;
+	border:1%;
+}
+footer .fa-instagram:hover{
+	background-color: #22840D;
+	color: #fff;
+	border:0.1em solid #22840D;
+	padding: 5%;
+}
+#creditos{
+	margin: 0;
+	background-color: #000;
+}
+#creditos h4{
+	text-shadow: 2px 2px 5px #22840D;
+  }
+
+
+/*-------Seccion Mapa-Sucursal-------*/
+
+.section-mapa{
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	}
+
+
+iframe{
+	max-width: 1250px;
+	width: 100%;
+	height: 400px;
+	border: none;
+	}
+
+.glyphicon-map-marker{
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+span{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+/*----Seccion Quienes Somos-----*/
+
+.section-empresa{
+	margin: 0;
+	padding: 0;
+}
+
+.titulo-empresa{
+	font-size: 22px;
+	font-weight:bold;
+	padding-top: 20px;
+	width: 100%;
+	max-width: 1250;
+}
+
+#texto-empresa{
+	font-size: 15px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+/*-----Termino Section Quienes Somos----*/
 
