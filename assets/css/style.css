@@ -60,14 +60,10 @@ h1,h2,h3,h4,h5,h6{
 /*-------- Seccion Compras --------*/
 
 .tres{
-<<<<<<< HEAD
-	height: 100vh;
-	background: #555;
-=======
+
 	padding: 5% 0;
 	background: #2F155B;
 	overflow-y: scroll;
->>>>>>> 335d901660d67834252ff6e85c9faa87b69046d9
 }
 .title-compra{
 	color: #fff;
@@ -135,7 +131,7 @@ h1,h2,h3,h4,h5,h6{
 /*-------- FIN Seccion Compras-------- */
 
 /* 4.- C O N T A C T O */
-#contact{
+#contacto{
 	background-color: background: #191654 ; 
 	background: -webkit-linear-gradient(to right, #43C6AC , #191654 ); 
 	background: linear-gradient(to right, #43C6AC , #191654 ); 
