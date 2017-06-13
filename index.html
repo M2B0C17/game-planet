@@ -11,7 +11,7 @@
 </head>
 <body data-spy="scroll" data-target="#header">
 
-<!-- Seccion Header + NavBar -->
+	<!-- Seccion Header + NavBar -->
 	<section class="first-section">
 		<nav class="navbar navbar-default navbar-fixed-top" id="header">
 			<div class="container-fluid">
@@ -37,17 +37,171 @@
 			</div>
 		</nav>
 	</section>
-<!-- Seccion Header + NavBar FIN-->
+	<!-- Seccion Header + NavBar FIN-->
 
+<<<<<<< HEAD
 <!-- Seccion Consolas -->
 	<section class="dos" id="consolas">
 		
 	</section>
+=======
+>>>>>>> 335d901660d67834252ff6e85c9faa87b69046d9
 
-<!-- Seccion Comprar -->
+
+<!-- Seccion Comprar------------------------------------ -->
 	<section class="tres" id="comprar">
-		
+		<div class="container">
+			<!-- TITULO -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 text-center">
+					<h2 class="title-compra">Suscríbete a nuestro Newsletter y obtén un 10% descuento</h2>
+				</div><!-- cierre col titulo -->
+			</div><!-- cierre row titulo -->
+
+			<!-- INICIO PRECIO CONSOLAS -->
+
+			<div class="row">
+				<!-- DIV NINTENDO -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" id="nintendo">
+					<div class="box-nintendo box-product">
+						<p class="title-list">NINTENDO<br>SWITCH</p>
+						<!-- precio -->
+						<div class="precio-nintendo">
+							<span class="signo-peso">$</span>
+							<span class="valor">349.990</span>
+							<span class="pesos">PESOS</span>
+							<p>con descuento: $314.990</p>
+						</div>
+						<!-- info adicional -->
+						<div class="info-extra pad-nintendo">
+							<p>Consola Nintendo Switch Gray</p>	
+							<hr class="line">					
+							<p><i class="fa fa-check" aria-hidden="true"></i> <strong>En Stock</strong></p>
+							<p><i class="fa fa-truck" aria-hidden="true"></i> Despacho a domicilio</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Retiro en tienda</p>
+						</div>
+						<!-- boton compra-->
+						<div class="btn-compra">
+							<button type="button" class="btn btn-default">+ AGREGAR AL CARRO</button>
+						</div>
+					</div><!-- cierre box nintendo -->
+				</div>	<!-- cierre col nintendo -->			
+				
+
+				<!-- DIV XBOX -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" id="xbox">
+					<div class="box-xbox box-product box-precio">
+						<p class="title-list title-adp">XBOX ONE</p>
+						<!-- precio -->
+						<div class="precio box-price">
+							<span class="signo-peso">$</span>
+							<span class="valor">329.990</span>
+							<span class="pesos">PESOS</span>
+							<p>con descuento: $296.990</p>
+						</div>
+						<!-- info adicional -->
+						<div class="info-extra">
+							<p>Consola Xbox one 500GB</p>	
+							<hr class="line">					
+							<p><i class="fa fa-check" aria-hidden="true"></i> <strong>En Stock</strong></p>
+							<p><i class="fa fa-truck" aria-hidden="true"></i> Despacho a domicilio</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Retiro en tienda</p>
+						</div>
+						<!-- boton compra-->
+						<div class="btn-compra">
+							<button type="button" class="btn btn-default">+ AGREGAR AL CARRO</button>
+						</div>
+					</div><!-- cierre box xbox -->
+				</div>	<!-- cierre div col -->
+
+				<!-- DIV PS4 -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" id="ps4">
+					<div class="box-ps4 box-product">
+						<p class="title-list">PLAY STATION 4</p>
+						<!-- precio -->
+						<div class="precio box-price">
+							<span class="signo-peso">$</span>
+							<span class="valor">369.990</span>
+							<span class="pesos">PESOS</span>
+							<p>con descuento: $332.990</p>
+						</div>
+						<!-- info adicional -->
+						<div class="info-extra">
+							<p>Consola Sony PS4 Slim</p>
+							<hr class="line">					
+							<p><i class="fa fa-check" aria-hidden="true"></i> <strong>Quedan pocas unidades</strong></p>
+							<p><i class="fa fa-truck" aria-hidden="true"></i> Despacho a domicilio</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Retiro en tienda</p>
+						</div>
+						<!-- boton compra-->
+						<div class="btn-compra">
+							<button type="button" class="btn btn-default">+ AGREGAR AL CARRO</button>
+						</div>
+					</div>
+				</div><!-- cierre div col ps4 -->	
+			</div>	<!-- cierre row consolas -->		
+		</div>	<!-- cierre div "container" -->	
 	</section>
+ 
+ 	<!-- 4.- C O N T A C T O------------------------- -->
+	<section id="contact" class="row">
+		<div class="col-md-7 col-xs-12 contacto">
+			<h1>Contactanos</h1>
+			<div>
+				<input type="text" name="name" class="col-lg-6 col-md-6 col-xs-6 input contenedor-inputs" placeholder="Escribe tu Nombre">
+			</div>
+			<div>
+				<input type="email" name="mail" class="col-lg-6 col-md-6 col-xs-6 input contenedor-inputs" placeholder="Escribe tu Email">
+			</div>
+			<div>
+				<textarea type="text" class="texta col-lg-6 col-md-6 col-xs-6 contenedor-inputs" maxlength="100" placeholder="Comentario"></textarea>
+			</div>
+				<button type="button" class="enviar col-lg-2 col-md-12 col-xs-4 contenedor-inputs btn btn-info btn-lg" data-toggle="modal" data-target="#contacto">Enviar</button>
+				<!-- Modal -->
+				<div id="contacto" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>  
+				      </div>
+				      <div class="modal-body">
+				        <p>Gracias por contactarnos</p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		</div>
+		<div class="col-md-5 suscribirse">
+			<p>Suscribete y obten ofertas y descuentos!</p>
+				<input type="email" class="col-lg-7 col-md-6 col-xs-6 contenedor-inputs" placeholder="Escribe tu Email" id="input-suscribir" required>
+			<button type="button" <button class="col-lg-4 col-md-12 col-xs-4" id="boton-suscri" data-toggle="modal" data-target="#myModal">Suscribirse</button>
+				<!-- Modal -->
+				<div id="myModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+					    <!-- Modal content-->
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					        <h4 class="modal-title">Gracias por suscribirte.</h4>
+					      </div>
+					      <div class="modal-body">
+					        <p>Some text in the modal.</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+  					</div>
+				</div>
+			</div>
+</section>
+<!-- FIN C O N T A C T O --> 
+  
+  
 <!-- Footer -->	
 	<footer>
 		<div class="container">
@@ -77,9 +231,26 @@
 		</div>
 	</footer>
 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/8f8db047c3.js"></script>
 	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
+
+<!--Seccion Mapa-Sucursal-->
+
+	<section class="section-mapa">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<span>Como llegar</span>
+					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.00737496347!2d-70.61317334983278!3d-33.42305208068741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf660bc0fd09%3A0x96d1c12e9e7c3832!2sGuardia+Vieja+35%2C+Providencia%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1497361558373"></iframe>
+				</div>
+			</div>
+		</div>		
+	</section>
 </body>
 </html>
