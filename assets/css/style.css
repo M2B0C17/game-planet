@@ -9,15 +9,12 @@ h1,h2,h3,h4,h5,h6{
 
 /*--------Seccion Header----------*/
 .first-section{
+	background-image: url(../img/fondo.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	border-bottom: 3px solid gray;
-
-	background: #360033;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -62,37 +59,45 @@ h1,h2,h3,h4,h5,h6{
 
 /*-------- Footer ----------*/
 footer{
-	padding-top: 5%;
-	background-color: #000;
-	height: 30vh;
+	background-color: background: #243B55;
+background: -webkit-linear-gradient(left, #141E30, #243B55);
+background: -o-linear-gradient(left, #141E30, #243B55);
+background: linear-gradient(to right, #141E30, #243B55); 
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
 }
 
+.contenido{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 footer a{
 	text-decoration: none;
 	color: #fff;
+	display: block;
 }
 
 footer a:hover{
-	color: #75BE7B;
+	color: #22840D;
 	text-decoration:none;
 }
 
 footer .fa-facebook-official{
+	margin: 2%;
 	border-radius: 4em;
 	border: 0.1em solid #fff;
 	padding: 5%;
 	border:1%;
 }
 footer .fa-facebook-official:hover{
-	background-color: #75BE7B;
+	background-color: #22840D;
 	color: #fff;
-	border:0.1em solid #75BE7B;
+	border:0.1em solid #22840D;
 	padding: 5%;
 }
 
 footer .fa-twitter{
+	margin: 2%;
 	border-radius: 4em;
 	border: 0.1em solid #fff;
 	padding: 5%;
@@ -100,21 +105,29 @@ footer .fa-twitter{
 }
 
 footer .fa-twitter:hover{
-	background-color: #75BE7B;
+	background-color: #22840D;
 	color: #fff;
-	border:0.1em solid #75BE7B;
+	border:0.1em solid #22840D;
 	padding: 5%;	
 }
 
 footer .fa-instagram{
+	margin: 2%;
 	border-radius: 4em;
 	border: 0.1em solid #fff;
 	padding: 5%;
 	border:1%;
 }
 footer .fa-instagram:hover{
-	background-color: #75BE7B;
+	background-color: #22840D;
 	color: #fff;
-	border:0.1em solid #75BE7B;
+	border:0.1em solid #22840D;
 	padding: 5%;
+}
+#creditos{
+	margin: 0;
+	background-color: #000;
+}
+#creditos h4{
+	text-shadow: 2px 2px 5px #22840D;
 }
