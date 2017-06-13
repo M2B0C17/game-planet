@@ -3,8 +3,11 @@
 #contact{
 	background-color: black;
 }
+.contacto h1{
+	margin-left: 230px;
+}
 .contacto{
-	text-align: center;
+	text-align: left;
 	color: red;
 	height: 400px;
 	margin-top: 20px;
@@ -13,22 +16,35 @@
 	height: 40px;
 }
 .texta{
-   height: 100px;
+	height: 100px;
 }
 .contenedor-inputs{
-	margin-left: 34%;
+	margin-left: 20%;
 	border-radius: 10pX;
 	border-style: none;
 	margin-top: 15px;
 }
-.enviar{
+.enviar,.boton-suscribir{
 	background-color: green;
 	border-radius: 10px;
 	border-style: none;
 	height: 50px;
-	position: relative;
-	left: 120px;
+	color: yellow;
 	font-size: 20px;
 }
-
+.suscribirse{
+	text-align: center;
+	margin-top: 150px;
+}
+.suscribirse input{
+	height: 40px;
+}
+.suscribirse p{
+	font-size: 24px;
+	color: white;
+}
+.suscribirse button{
+	margin-top: 20px;
+	margin-left: 150px;
+}
 /*FIN  C O N T A C T O */
