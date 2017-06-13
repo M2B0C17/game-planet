@@ -1,15 +1,17 @@
 
 /* 4.- C O N T A C T O */
 #contact{
-	background-color: black;
+	background-color: background: #191654 ; 
+	background: -webkit-linear-gradient(to right, #43C6AC , #191654 ); 
+	background: linear-gradient(to right, #43C6AC , #191654 ); 
+	height: 100vh;
 }
 .contacto h1{
-	margin-left: 230px;
+	margin-left: 160px;
+	margin-top: 15vh;
 }
 .contacto{
-	text-align: left;
-	color: red;
-	height: 400px;
+	color: white;
 	margin-top: 20px;
 }
 .input{
@@ -24,23 +26,49 @@
 	border-style: none;
 	margin-top: 15px;
 }
-.enviar,.boton-suscribir{
-	background-color: green;
+.enviar{
+	margin-left: 20%;
+	border: 1px solid white;
 	border-radius: 10px;
-	border-style: none;
-	height: 50px;
-	color: yellow;
+	height: 40px;
+	color: white;
 	font-size: 20px;
+	background: none;
 }
+
+.enviar:hover{
+	color:#191654;
+	background: white;
+	
+}
+
+#boton-suscri{
+	margin-left: 20%;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background: none;
+	
+}
+
+#boton-suscri:hover{
+	color:#191654;
+	background: white;
+	
+}
+
+
 .suscribirse{
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 30vh;
 }
 .suscribirse input{
 	height: 40px;
 }
 .suscribirse p{
-	font-size: 24px;
+	font-size: 20px;
 	color: white;
 }
 .suscribirse button{
@@ -48,3 +76,7 @@
 	margin-left: 150px;
 }
 /*FIN  C O N T A C T O */
+
+.modal-body{
+	color: gray;
+}
