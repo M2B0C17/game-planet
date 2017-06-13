@@ -88,7 +88,7 @@ body {
   box-shadow: 2px 2px 5px #1C6342;
 }
 
-.dosA .btn, .dosB .btn {
+.dosA .btn, .dosC .btn {
 	font-size: 1.25em;
 	font-weight: bold;
 	padding: 10px 15px;
@@ -103,7 +103,7 @@ body {
 	padding: 10px 15px;
 	border-radius: 5px;
 	color: #1C6342;
-	margin-top: 200px;
+	margin-top: 50px;
 }
 
 .modal .btn {
