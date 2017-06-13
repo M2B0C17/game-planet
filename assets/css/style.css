@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 /*--------Seccion Header----------*/
 .first-section{
 	height: 100vh;
@@ -17,9 +21,9 @@
    margin: 0 5%
 }
 
-
-li:hover{
-	background-color: lightgray;
+.navbar>li.active>a:hover{
+	background-color: blue !important;
+	border-radius: 50px;
 }
 
 .navbar-right a{
@@ -34,7 +38,7 @@ li:hover{
 }
 
 .navbar-color{
-	background-color: #253f3f;
+	background-color: #001510;
 }
 
 /*--------FIN Seccion Header----------*/
@@ -42,4 +46,11 @@ li:hover{
 .dos{
 	height: 100vh;
 	background: #fff;
+	overflow-y: scroll;
+}
+
+.tres{
+	height: 100vh;
+	background: #555;
+	overflow-y: scroll;
 }
