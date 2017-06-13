@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*Barras de %*/
-.container{
+.container-consolas{
   padding-top: 10%;
 }
 
@@ -100,23 +100,22 @@ h1,h2,h3,h4,h5,h6{
   width: 15%;
   margin-left: 45%;
   padding-top: 3%;
-
-.dosA .btn, .dosC .btn {
-	font-size: 1.25em;
-	font-weight: bold;
-	padding: 10px 15px;
-	border-radius: 5px;
-	color: #1C6342;
-	margin-top: 200px;
 }
 
-.dosB .btn {
-	font-size: 1.25em;
-	font-weight: bold;
-	padding: 10px 15px;
-	border-radius: 5px;
-	color: #1C6342;
-	margin-top: 50px;
+.dosA .btn, .dosB .btn, .dosC .btn {
+	margin-top: 40px;
+
+	border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background: none;
+}
+
+.dosA .btn:hover, .dosB .btn:hover, .dosC .btn:hover{
+	 color:#191654 ;
+    background: white;
 }
 
 .modal .btn {
@@ -126,17 +125,12 @@ h1,h2,h3,h4,h5,h6{
 }
 /*--------FIN Seccion Consolas----------*/
 
-.tres {
-	height: 100vh;
-	background: #555;
-	overflow-y: scroll;
-}
 
 
 .tres{
 
-	padding: 5% 0;
-	overflow-y: scroll;
+	padding: 10% 0;
+
 	background-color: background: #6441A5 ; 
 	background: -webkit-linear-gradient(to right, #2a0845 , #6441A5 ); 
 	background: linear-gradient(to right, #2a0845 , #6441A5 );
@@ -213,11 +207,12 @@ h1,h2,h3,h4,h5,h6{
     
 }
 
+/*-------- FIN Seccion Compras-------- */
+
 /*----Seccion Quienes Somos-----*/
 
 .section-empresa{
-    margin: 0;
-    padding: 0;
+    padding: 10%;
     background: #3a7bd5;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -240,7 +235,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*-----Termino Section Quienes Somos----*/
 
-/*-------- FIN Seccion Compras-------- */
+
 
 /* 4.- C O N T A C T O */
 #contacto{
