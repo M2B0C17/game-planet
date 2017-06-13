@@ -75,14 +75,19 @@ body {
 
 /*Barras de %*/
 .container{
-  padding-top: 25%;
+  padding-top: 10%;
 }
 
 .progress:hover{
   box-shadow: 2px 2px 5px #1C6342;
 }
 
-
+/*Logos*/
+.logo{
+  width: 15%;
+  margin-left: 45%;
+  padding-top: 3%;
+}
 
 
 /*--------FIN Seccion Consolas----------*/
