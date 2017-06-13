@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{
 	background-color:transparent;
 	border-color:transparent;
 	background-image:none;
-	box-shadow:none;	
+	box-shadow:none;
 }
 
 .navbar-color{
@@ -53,17 +53,93 @@ h1,h2,h3,h4,h5,h6{
 
 /*--------FIN Seccion Header----------*/
 
+
+
+/*--------Seccion Consolas----------*/
+
 .dos{
 	height: 100vh;
-	background: #fff;
 }
-/*-------- Seccion Compras --------*/
+
+/*Fondo Imagenes*/
+.dosA {
+  background-image: url(../img/play4-1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dosB {
+  background-image: url(../img/xBox1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dosC {
+  background-image: url(../img/nintendoSwitch1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Barras de %*/
+.container{
+  padding-top: 10%;
+}
+
+.progress:hover{
+  box-shadow: 2px 2px 5px #1C6342;
+}
+
+/*Logos*/
+.logo {
+  width: 15%;
+  margin-left: 45%;
+  padding-top: 3%;
+
+.dosA .btn, .dosC .btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #1C6342;
+	margin-top: 200px;
+}
+
+.dosB .btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #1C6342;
+	margin-top: 50px;
+}
+
+.modal .btn {
+	color: #1C6342;
+	font-weight: bold;
+	margin-top: 300px;
+}
+/*--------FIN Seccion Consolas----------*/
+
+.tres {
+	height: 100vh;
+	background: #555;
+	overflow-y: scroll;
+}
+
 
 .tres{
 
 	padding: 5% 0;
-	background: #2F155B;
 	overflow-y: scroll;
+	background-color: background: #6441A5 ; 
+	background: -webkit-linear-gradient(to right, #2a0845 , #6441A5 ); 
+	background: linear-gradient(to right, #2a0845 , #6441A5 );
 }
 .title-compra{
 	color: #fff;
@@ -72,27 +148,28 @@ h1,h2,h3,h4,h5,h6{
 
 .title-list{
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 26px;
 }
 
 
 .box-product{ /* caja general que contiene a cada producto */
 	border-radius: 30px;
-	padding: 50px 0 70px 0;
+	padding: 20px 0 30px 0;
+	color:white;
 }
 
 .box-nintendo{ /* background color de la caja general de nintendo */
-	background-color:#FFF121;
+	background-color:#f83700;
 }
 .box-xbox{ /* background color de la caja general de xbox */
-	background-color: #FD8816;
+	background-color: #fd8c00;
 }
 
 .box-ps4{ /* background color de la caja general de ps4 */
 	background-color:#C70041;
 }
 .precio{
-	padding:20px 0 40px 0;
+	padding:20px 0 10px 0;
 }
 .precio-nintendo{
 	padding-top: 9px;
@@ -102,7 +179,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .pad-nintendo{
-	padding-top:40px;
+	padding-top:10px;
 }
 .signo-peso{
 	font-size:14px;
@@ -119,13 +196,21 @@ h1,h2,h3,h4,h5,h6{
 .line{
 	width:200px;
 }
+
+
 .btn{
-	border-radius: 40px;
-	padding: 20px;
-	margin-top:30px;
-	background-color: #fff;
-	font-color: #FD8816;
-	font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background: none;
+}
+
+.btn:hover{
+    color:#191654 ;
+    background: white;
+    
 }
 
 /*----Seccion Quienes Somos-----*/
@@ -240,9 +325,9 @@ h1,h2,h3,h4,h5,h6{
 /*-------- Footer ----------*/
 footer{
 	background-color: background: #243B55;
-background: -webkit-linear-gradient(left, #141E30, #243B55);
-background: -o-linear-gradient(left, #141E30, #243B55);
-background: linear-gradient(to right, #141E30, #243B55); 
+  background: -webkit-linear-gradient(left, #141E30, #243B55);
+  background: -o-linear-gradient(left, #141E30, #243B55);
+  background: linear-gradient(to right, #141E30, #243B55); 
 	color: #fff;
 	font-size: 16px;
 }
@@ -313,7 +398,7 @@ footer .fa-instagram:hover{
 }
 #creditos h4{
 	text-shadow: 2px 2px 5px #22840D;
-=======
+  }
 
 
 /*-------Seccion Mapa-Sucursal-------*/
@@ -367,3 +452,4 @@ span{
 }
 
 /*-----Termino Section Quienes Somos----*/
+
