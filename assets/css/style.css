@@ -41,6 +41,12 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-color{
 	background-color: #001510;
+	height: 70px;
+}
+
+.navbar-brand{
+	width: 150px;
+	margin-top: 2px;
 }
 
 /*--------FIN Seccion Header----------*/
@@ -48,13 +54,11 @@ h1,h2,h3,h4,h5,h6{
 .dos{
 	height: 100vh;
 	background: #fff;
-	overflow-y: scroll;
 }
 
 .tres{
 	height: 100vh;
 	background: #555;
-	overflow-y: scroll;
 }
 
 /*-------- Footer ----------*/
