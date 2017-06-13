@@ -3,9 +3,10 @@
 	var boton= document.getElementById("boton-suscri");
   
   boton.addEventListener("click",function(){
-  	if (input.length===0){
+  	if (input.length=== 0){
 		alert("escribe tu correo")
-	}else{
+	}
+	else{
       alert("bien")
 	}
   });
