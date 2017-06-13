@@ -53,10 +53,29 @@ body {
   background-image: url(../img/play4-1.jpg);
   height: 100vh;
   background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.bg-white {
+  background-color: white;
+}
+
+.btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #1C6342;
+	margin-top: 520px;
+}
+
+.modal .btn {
+	color: #1C6342;
+	font-weight: bold;
+	margin-top: 520px;
+
+}
 
 .sectionDiseñoSec2{
   background-image: url(../img/xBox1.jpg);
