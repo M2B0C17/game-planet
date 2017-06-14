@@ -51,6 +51,13 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 2px;
 }
 
+.bienvenida{
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	padding-top: 180px;
+
+}
+
 /*--------FIN Seccion Header----------*/
 
 
@@ -212,7 +219,7 @@ h1,h2,h3,h4,h5,h6{
 /*----Seccion Quienes Somos-----*/
 
 .section-empresa{
-    padding: 10%;
+    padding: 10% 0;
     background: #3a7bd5;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -223,14 +230,14 @@ h1,h2,h3,h4,h5,h6{
     font-size: 22px;
     font-weight:bold;
     padding-top: 20px;
-    width: 100%;
-    max-width: 1250;
+    color: #fff;
+   
 }
 
 #texto-empresa{
     font-size: 15px;
-    text-align: justify;
     padding-bottom: 20px;
+    color: #fff;
 }
 
 /*-----Termino Section Quienes Somos----*/
